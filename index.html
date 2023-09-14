@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bohemi Chapecó</title>
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/" />
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/dist/css/carousel.css" rel="stylesheet" />
+    <style>
+        body::after {
+            content: "";
+            background-image: url("imagem");
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+            position: fixed;
+            top: 90%;
+            left: 95%;
+            width: 60px;
+            height: 60px;
+        }
+
+        @media (max-width: 760px) {
+            body::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column" id="outras">
+    <main class="flex-shrink-0">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-4">
+                <a class="navbar-brand fw-bolder" href="index.html">Bohemi Chapecó</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
+            <!-- Conteúdo do carrossel aqui -->
+        </div>
+
+        <!-- Header -->
+        <header class="bg-dark py-5" id="fraseHeader">
+            <div class="container px-4">
+                <div class="row gx-4 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6 text-center">
+                        <div class="my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">A loja de pratas que vai te apaixonar!</h1>
+                            <img class="" src="" alt="">
+                            <button class="learn-more fw-bolder">
+                                <span class="hover-underline-animation"><a href="produtos.html"
+                                        style="text-decoration: none; color: rgba(0, 0, 0, 0.61);">Produtos</a></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Section de Produtos -->
+        <section class="py-5">
+            <div class="container px-4">
+                <div class="row gx-4" id="fotosHeader">
+                    <!-- Conteúdo dos produtos aqui -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <div class="bg-dark-px-4 bg-dark" id="sectionHeader">
+            <div class="container px-4">
+                <div class="row gx-4 align-items-center justify-content-center my-4 text-center text-xl-start">
+                    <div class="col-lg-4 col-md-6">
+                        <img class="icones" src="https://img.icons8.com/?size=512&id=11910&format=png" alt=""
+                            width="140" height="140">
+                        <title>Entregas</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <h2 class="fw-normal">Entregas</h2>
+                        <p>Entregamos em toda SC e entorno mediante pagamento de frete.</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img class="icones" src="https://www.svgrepo.com/show/313128/diamond.svg" alt=""
+                            width="140" height="140">
+                        <title>Garantia</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <h2 class="fw-normal">Garantia eterna</h2>
+                        <p>Nossas peças são confeccionadas com prata 925 legítima.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img class="icones" src="https://www.svgrepo.com/show/255121/pay-point-pay.svg" alt=""
+                            width="140" height="140">
+                        <title>Formas de pagamento</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <h2 class="fw-normal">Formas de pagamento</h2>
+                        <p>Aceitamos cartão de crédito, débito e PIX.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sobre a loja -->
+        <div class="py-5 bg-light">
+            <div class="container px-4 my-5">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-10 col-xl-7">
+                        <div class="text-center">
+                            <div class="fs-4 mb-4 fst-italic">"Sou a Bohemi Chapecó, uma loja de pratas que encanta com
+                                seu
+                                brilho único. Cada peça é cuidadosamente selecionada para transmitir elegância e
+                                sofisticação. Minha missão é adornar seus momentos especiais com o encanto da prata.
+                                Seja bem-vindo(a) ao universo brilhante da Bohemi Chapecó." - Bohemi Chapecó, a essência do
+                                requinte.</div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="rounded-circle me-3" src="" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Footer -->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-4">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">iCopyrght &copy; Bohemi Chapecó</div>
+                </div>
+                <div class="col-auto">
+                    <div class="small m-0 text-white">Desenvolvido por: &copy; João Antonio De Oliveira</div>
+                </div>
+                <div class="col-auto">
+                    <span class="text-white mx-1"></span>
+                    <a class="link-light small" href="faq.html">Contatos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
